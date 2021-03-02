@@ -1,0 +1,46 @@
+body{margin: 0px;padding: 0px;background: rgb(245, 185, 185);}
+#page{
+    width: 960px;background: white;
+    margin: 0px auto;margin-top: 50px;height: 1200px;
+    padding: 20px;box-shadow: 10px 10px 10px #f0bdbd;
+    border-radius: 10px 10px 10px 10px;}
+#content{height: 900px;}
+#title{font-size: 20px; font-weight: bold;}
+#top{padding: 20px; background: rgb(245, 185, 185);
+    border-radius: 10px 10px 10px 10px; font-weight: bold;}
+#bottom{text-align: center;padding: 20px;}
+a{text-decoration: none; font-size: 20px; color: gray;}
+a:hover{background: #cae46f;color:rgb(175, 173, 173);
+    border-radius: 5px 5px 5px 5px;}
+.subject{text-align: center;}
+#divSearch{width: 900px;border: 2px solid rgb(175, 173, 173);
+    padding: 10px;margin: 0px auto;
+    border-radius: 5px 5px 5px 5px;}
+table{width: 920px;border-collapse: collapse;margin: 0px auto;}
+#divPage{width:920px;text-align: center; padding:10px;}
+#tbl{width: 920px;border-collapse: collapse; margin-top: 30px; background: rgb(245, 185, 185);}
+#tbl td{border: 5px solid #ffffff; padding: 5px;}
+#tbl .title{text-align: center;background: rgb(243, 219, 219);color: black;}
+#tbl .row:hover{background: hsl(0, 15%, 65%);color: black;}
+
+#darken-background {
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:100%;
+    display:none;
+    background:rgba(0, 0, 0, 0.5);
+    z-index:10000;
+    overflow-y:scroll;
+}
+#lightbox {
+    width:700px;
+    margin:20px auto;
+    padding:15px;
+    border: 1px solid #333333;
+    border-radius:5px;
+    background:white;
+    box-shadow:0px 5px 5px rgba(34, 25, 25, 0.4);
+    text-align:center;
+}
